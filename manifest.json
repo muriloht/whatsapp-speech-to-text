@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_chrome_extension_name__",
+  "version": "0.1.0",
+  "description": "__MSG_chrome_extension_description__",
+  "default_locale": "en_US",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "jquery.min.js",
+        "content.js"
+      ],
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ]
+    }
+  ],
+  "homepage_url": "http://github.com/muriloht/whatsapp-speech-to-text",
+  "options_page": "options.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "short_name": "WASTT",
+  "update_url": "http://github.com/muriloht/whatsapp-speech-to-text/releases",
+  "web_accessible_resources": [
+    "loading.gif"
+  ]
+}

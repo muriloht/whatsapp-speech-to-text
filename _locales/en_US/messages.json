@@ -1,0 +1,35 @@
+{
+  "chrome_extension_name": {
+    "message": "WhatsApp Speech-to-Text"
+  },
+  "chrome_extension_description": {
+    "message": "Convert annoying voice messages on WhatsApp (web) to text using Google Cloud Speech-to-Text API"
+  },
+  "transcribe": {
+    "message": "Transcribe"
+  },
+  "opts_title": {
+    "message": "WhatsApp Speech-to-Text Options"
+  },
+  "opts_description": {
+    "message": "Create your account and get your API KEY on https://cloud.google.com/speech-to-text"
+  },
+  "opts_api_key_label": {
+    "message": "API Key"
+  },
+  "opts_language_label": {
+    "message": "Language (pt_BR, en-US, other...)"
+  },
+  "opts_ponctuation_label": {
+    "message": "Automatic Punctuation"
+  },
+  "opts_encoding_label": {
+    "message": "Encoding"
+  },
+  "opts_model_label": {
+    "message": "Model"
+  },
+  "opts_save_label": {
+    "message": "Save"
+  }
+}

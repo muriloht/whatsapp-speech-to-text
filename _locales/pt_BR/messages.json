@@ -1,0 +1,35 @@
+{
+  "chrome_extension_name": {
+    "message": "WhatsApp Speech-to-Text"
+  },
+  "chrome_extension_description": {
+    "message": "Converte para texto as mensagens de áudio inconvenientes do Whatsapp usando a API Speech-to-Text do Google Cloud."
+  },
+  "transcribe": {
+    "message": "Transcrever"
+  },
+  "opts_title": {
+    "message": "WhatsApp Speech-to-Text Options"
+  },
+  "opts_description": {
+    "message": "Crie sua conta no Google e obtenha sua Chave da API em https://cloud.google.com/speech-to-text"
+  },
+  "opts_api_key_label": {
+    "message": "Chave da API"
+  },
+  "opts_language_label": {
+    "message": "Idioma (pt_BR, en-US, other...)"
+  },
+  "opts_ponctuation_label": {
+    "message": "Pontuação Automática"
+  },
+  "opts_encoding_label": {
+    "message": "Codificação"
+  },
+  "opts_model_label": {
+    "message": "Modelo"
+  },
+  "opts_save_label": {
+    "message": "Salvar"
+  }
+}
